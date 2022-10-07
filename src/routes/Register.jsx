@@ -81,7 +81,7 @@ const Register = () => {
         </Form>
         <div className="pt-3">
           <span>
-            Do you have an account? <Link to={"/register"}>Sing In</Link>
+            Do you have an account? <Link to={"/login"}>Sing In</Link>
           </span>
         </div>
       </div>
