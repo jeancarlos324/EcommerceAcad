@@ -11,7 +11,7 @@ const Register = () => {
   const submit = (data) => {
     console.log(data)
     axios
-      .post("https://ecommerce-api-react.herokuapp.com/api/v1/users", data)
+      .post("https://e-commerce-api.academlo.tech/api/v1/users", data)
       .then(() => {
         navigate("/login");
       })

@@ -11,7 +11,7 @@ const Login = () => {
   const submit = (data) => {
     axios
       .post(
-        "https://ecommerce-api-react.herokuapp.com/api/v1/users/login",
+        "https://e-commerce-api.academlo.tech/api/v1/users/login",
         data
       )
       .then((res) => {
@@ -32,10 +32,10 @@ const Login = () => {
         <div className="flex flex-col items-start bg-sky-500 pl-3 py-2 text-slate-700">
           <h6 className="text-price-card font-bold">Test User</h6>
           <span>
-            <b>UserName: </b>john@gmail.com
+            <b>UserName: </b> Jose123@gmail.com
           </span>
           <span>
-            <b>Password: </b>john1234
+            <b>Password: </b>pass1234
           </span>
         </div>
         <h1>Login</h1>
